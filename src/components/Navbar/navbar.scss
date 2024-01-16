@@ -1,0 +1,44 @@
+.navbar__wrapper {
+    height: 80px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    .logo{
+        font-size: 3rem;
+        font-weight: 700;
+        flex: 0;
+    }
+
+    .pagesTabs{
+        display: flex;  
+        font-size: 2rem;
+        font-weight: 600;
+        flex: 2;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        ul{
+            display: flex;
+
+        }
+    }
+
+    .profileFunctions {
+        display: flex;
+        flex: 0;
+        gap: 1rem;
+        align-items: center;
+      div {
+        width: 100%;
+        img {
+          width: 35px;
+          aspect-ratio: 1/1;
+        }
+      }
+    }
+  }
+}
