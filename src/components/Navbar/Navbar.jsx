@@ -11,10 +11,10 @@ export default function Navbar() {
         </div>
         <ul className="pagesTabs">
           <li>
-            <Link to="/discover">Discover</Link>
+            <Link to="/discover">MÉDIA</Link>
           </li>
           <li>
-            <Link to="/shop">Shop</Link>
+            <Link to="/shop">SHOP</Link>
           </li>
         </ul>
         <div className="profileFunctions">
